@@ -1,0 +1,19 @@
+{
+	"name": "@johntalton/bno08x",
+	"version": "1.0.0",
+	"type": "module",
+	"exports": {
+		".": "./lib/index.js"
+	},
+	"scripts": {
+		"build": "tsc",
+		"build:watch": "tsc --watch"
+	},
+	"dependencies": {
+		"@johntalton/and-other-delights": "^6.0.0",
+		"@johntalton/bitsmush": "^1.0.0"
+	},
+	"devDependencies": {
+		"typescript": "^4.9.3"
+	}
+}
